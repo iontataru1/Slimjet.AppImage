@@ -55,6 +55,105 @@ view-source:chrome-extension://oogmkbpkoblajkomflhkkdmbfggdmefd/inicio.html
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var bookmarks = [];
+vivaldi.bookmarksPrivate.getTree(function (itemTree) {
+    function processNode(node) {
+        if (node.children) {
+            node.children.forEach(processNode);
+        } else {
+            bookmarks.push({ title: node.title, url: node.url });
+        }
+    }
+    itemTree.forEach(processNode);
+
+    // Convert bookmarks array to HTML
+    var html = "<!DOCTYPE NETSCAPE-Bookmark-file-1>\n" +
+               "<!-- This is an automatically generated file.\n" +
+               "     It will be read and overwritten.\n" +
+               "     DO NOT EDIT! -->\n" +
+               "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\">\n" +
+               "<Title>Bookmarks</Title>\n" +
+               "<H1>Bookmarks</H1>\n" +
+               "<DL><p>\n";
+    bookmarks.forEach(function (bookmark) {
+        html += "<DT><A HREF=\"" + bookmark.url + "\" ADD_DATE=\"1\" ICON=\"\">" + bookmark.title + "</A>\n";
+    });
+    html += "</DL><p>";
+
+    // Download the HTML file
+    var blob = new Blob([html], { type: "text/html" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "bookmarks.html";
+    a.click();
+});
+
+var bookmarks = [];
+chrome.bookmarks.getTree(function (itemTree) {
+    function processNode(node) {
+        if (node.children) {
+            node.children.forEach(processNode);
+        } else {
+            bookmarks.push({ title: node.title, url: node.url });
+        }
+    }
+    itemTree.forEach(processNode);
+
+    // Convert bookmarks array to HTML
+    var html = "<!DOCTYPE NETSCAPE-Bookmark-file-1>\n" +
+               "<!-- This is an automatically generated file.\n" +
+               "     It will be read and overwritten.\n" +
+               "     DO NOT EDIT! -->\n" +
+               "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\">\n" +
+               "<Title>Bookmarks</Title>\n" +
+               "<H1>Bookmarks</H1>\n" +
+               "<DL><p>\n";
+    bookmarks.forEach(function (bookmark) {
+        html += "<DT><A HREF=\"" + bookmark.url + "\" ADD_DATE=\"1\" ICON=\"\">" + bookmark.title + "</A>\n";
+    });
+    html += "</DL><p>";
+
+    // Download the HTML file
+    var blob = new Blob([html], { type: "text/html" });
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "bookmarks.html";
+    a.click();
+});
 <!DOCTYPE html>
 <html lang="en">
 <head>
