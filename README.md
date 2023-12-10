@@ -55,6 +55,274 @@ view-source:chrome-extension://oogmkbpkoblajkomflhkkdmbfggdmefd/inicio.html
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slimjet Enhancer</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    <script type="text/javascript" src="/js/global.js"></script>
+    <style id="variableStyles"></style>
+</head>
+<body>
+
+<section class="memory-settings">
+    <h2>Memory Saver</h2>
+    <p>When turned on, the browser frees up memory from inactive tabs, providing more resources to active tabs and other apps, keeping the browser fast. Inactive tabs automatically become active when revisited.</p>
+    <p><a href="#">Learn more</a></p>
+
+    <h3>Always keep these sites active</h3>
+    <p>Sites you add will always stay active, and memory won't be freed up from them.</p>
+    <p>No sites added</p>
+</section>
+
+<section class="memory-saver-settings">
+    <h2>Speed</h2>
+    
+    <h3>Preload pages</h3>
+    <p>When turned on, the browser preloads pages to make browsing and searching faster.</p>
+
+    <h3>Extended preloading</h3>
+    <p>More pages are preloaded, and they may be loaded through the browser's servers when requested by other sites.</p>
+    <p><a href="#">Learn more</a></p>
+
+    <h3>Standard preloading</h3>
+    <p>Some of the pages you visit are preloaded to speed up browsing and searching.</p>
+</section>
+
+<script>
+    // Simulate memory management
+    const memorySaverEnabled = true;
+
+    window.addEventListener('blur', function () {
+        if (memorySaverEnabled) {
+            // Release resources when the window is not active
+            // Implement your logic here
+        }
+    });
+
+    window.addEventListener('focus', function () {
+        // Restore resources when the window becomes active again
+        // Implement your logic here
+    });
+
+    // Simulate page preloading
+    const preloadPagesEnabled = true;
+
+    window.addEventListener('load', function () {
+        if (preloadPagesEnabled) {
+            // Implement your logic for page preloading here
+        }
+    });
+
+    // To control memory and release resources from inactive tabs
+    document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState === 'hidden') {
+            // Release resources here
+        } else {
+            // Reactivate resources here
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slimjet Enhancer</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    <script type="text/javascript" src="/js/global.js"></script>
+    <style id="variableStyles"></style>
+</head>
+<body>
+
+<section class="memory-settings">
+    <h2>Memory Saver</h2>
+    <p>When turned on, the browser frees up memory from inactive tabs, providing more resources to active tabs and other apps, keeping the browser fast. Inactive tabs automatically become active when revisited.</p>
+    <p><a href="#">Learn more</a></p>
+
+    <h3>Always keep these sites active</h3>
+    <p>Sites you add will always stay active, and memory won't be freed up from them.</p>
+    <p>No sites added</p>
+</section>
+
+<section class="memory-saver-settings">
+    <h2>Speed</h2>
+    
+    <h3>Preload pages</h3>
+    <p>When turned on, the browser preloads pages to make browsing and searching faster.</p>
+
+    <h3>Extended preloading</h3>
+    <p>More pages are preloaded, and they may be loaded through the browser's servers when requested by other sites.</p>
+    <p><a href="#">Learn more</a></p>
+
+    <h3>Standard preloading</h3>
+    <p>Some of the pages you visit are preloaded to speed up browsing and searching.</p>
+</section>
+
+<script>
+    // Simulate memory management
+    const memorySaverEnabled = true;
+
+    window.addEventListener('blur', function () {
+        if (memorySaverEnabled) {
+            // Release resources when the window is not active
+            // Implement your logic here
+        }
+    });
+
+    window.addEventListener('focus', function () {
+        // Restore resources when the window becomes active again
+        // Implement your logic here
+    });
+
+    // Simulate page preloading
+    const preloadPagesEnabled = true;
+
+    window.addEventListener('load', function () {
+        if (preloadPagesEnabled) {
+            // Implement your logic for page preloading here
+        }
+    });
+
+    // To control memory and release resources from inactive tabs
+    document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState === 'hidden') {
+            // Release resources here
+        } else {
+            // Reactivate resources here
+        }
+    });
+</script>
+
+<script>
+    // Check if extended preloading is enabled
+    const extendedPreloadingEnabled = true;
+
+    // Check if standard preloading is enabled
+    const standardPreloadingEnabled = true;
+
+    window.addEventListener('load', function () {
+        if (extendedPreloadingEnabled) {
+            // Implement logic for extended preloading
+            console.log('Extended preloading is enabled.');
+        }
+
+        if (standardPreloadingEnabled) {
+            // Implement logic for standard preloading
+            console.log('Standard preloading is enabled.');
+        }
+    });
+</script>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slimjet Enhancer</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    <script type="text/javascript" src="/js/global.js"></script>
+    <style id="variableStyles"></style>
+</head>
+<body>
+
+<section class="memory-settings">
+    <h2>Memory Saver</h2>
+    <p>When turned on, the browser frees up memory from inactive tabs, providing more resources to active tabs and other apps, keeping the browser fast. Inactive tabs automatically become active when revisited.</p>
+    <p><a href="#">Learn more</a></p>
+
+    <h3>Always keep these sites active</h3>
+    <p>Sites you add will always stay active, and memory won't be freed up from them.</p>
+    <p>No sites added</p>
+</section>
+
+<section class="memory-saver-settings">
+    <h2>Speed</h2>
+    
+    <h3>Preload pages</h3>
+    <p>When turned on, the browser preloads pages to make browsing and searching faster.</p>
+
+    <h3>Extended preloading</h3>
+    <p>More pages are preloaded, and they may be loaded through the browser's servers when requested by other sites.</p>
+    <p><a href="#">Learn more</a></p>
+
+    <h3>Standard preloading</h3>
+    <p>Some of the pages you visit are preloaded to speed up browsing and searching.</p>
+</section>
+
+<script>
+    // Simulate memory management
+    const memorySaverEnabled = true;
+
+    window.addEventListener('blur', function () {
+        if (memorySaverEnabled) {
+            // Release resources when the window is not active
+            // Implement your logic here
+        }
+    });
+
+    window.addEventListener('focus', function () {
+        // Restore resources when the window becomes active again
+        // Implement your logic here
+    });
+
+    // Simulate page preloading
+    const preloadPagesEnabled = true;
+
+    window.addEventListener('load', function () {
+        if (preloadPagesEnabled) {
+            // Implement your logic for page preloading here
+        }
+    });
+
+    // To control memory and release resources from inactive tabs
+    document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState === 'hidden') {
+            // Release resources here
+        } else {
+            // Reactivate resources here
+        }
+    });
+</script>
+
+<script>
+    // Check if extended preloading is enabled
+    const extendedPreloadingEnabled = true;
+
+    // Check if standard preloading is enabled
+    const standardPreloadingEnabled = true;
+
+    window.addEventListener('load', function () {
+        if (extendedPreloadingEnabled) {
+            // Implement logic for extended preloading
+            console.log('Extended preloading is enabled.');
+        }
+
+        if (standardPreloadingEnabled) {
+            // Implement logic for standard preloading
+            console.log('Standard preloading is enabled.');
+        }
+    });
+</script>
+
+<!-- Add any additional scripts or code here -->
+
+</body>
+</html>
+
+
 
 
 
