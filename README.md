@@ -59,6 +59,24 @@ view-source:chrome-extension://oogmkbpkoblajkomflhkkdmbfggdmefd/inicio.html
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuckDuckGo Search</title>
+</head>
+<body>
+
+<!-- Formularul de căutare DuckDuckGo -->
+<form action="https://duckduckgo.com/" method="get" target="_blank">
+    <label for="search">Caută pe DuckDuckGo:</label>
+    <input type="text" id="search" name="q" placeholder="Introduceți termenul de căutare" required>
+    <button type="submit">Caută</button>
+</form>
+
+</body>
+</html>
 
 
 
