@@ -2940,3 +2940,36 @@ it accessible to users around the world.</li>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tls 1.2,tls 1.3,Signal Protocol,pronmail,tutanota mail,OTR (Off-the-Record Messaging),Matrix Protocol,WireGuard,XMPP (Extensible Messaging and Presence Protocol),OpenPGP (Pretty Good Privacy OpenPGP),Oxen Service Nodes (Oxen Loki),PGP (Pretty Good Privacy),SSH (Secure Shell),IPsec (Internet Protocol Security),S/MIME (Secure/Multipurpose Internet Mail Extensions),IKEv2 (Internet Key Exchange version 2),WebRTC (Web Real-Time Communication),DNS over HTTPS (DoH),QUIC (Quick UDP Internet Connections),DANE (DNS-based Authentication of Named Entities),ZRTP (Z Real-Time Transport Protocol),CORS (Cross-Origin Resource Sharing),ZeroNet Protocol,OAuth (Open Authorization) OAuth 2.0,OpenID Connect,KERBEROS,LDAP (Lightweight Directory Access Protocol),SCIM (System for Cross-domain Identity Management),BGP (Border Gateway Protocol),DNSSEC (Domain Name System Security Extensions),WPA3 SAE,CRL (Certificate Revocation List),RADIUS (Remote Authentication Dial-In User Service),SSH (Secure Shell),SRTP (Secure Real-time Transport Protocol),PPTP (Point-to-Point Tunneling Protocol),L2TP/IPsec (Layer 2 Tunneling Protocol with IPsec),IKEv2/IPsec (Internet Key Exchange version 2),SSTP (Secure Socket Tunneling Protocol),WireGuard,SFTP (Secure File Transfer Protocol),SRTP (Secure Real-time Transport Protocol),SMTPS (Simple Mail Transfer Protocol Secure),TLS/SSL (Transport Layer Security/Secure Sockets Layer),Diameter,haideti sa le includem in slimjet browser html codul imi trebuie,WebRTC,OPENGL,VULKAN GRAPHICS,3D GRAPHICS
+
