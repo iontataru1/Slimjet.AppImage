@@ -218,11 +218,11 @@ html
   </div>
 
   <div class="image-slider">
-  <img src="feature-1.jpg" alt="Caracteristică 1 Slimjet">
-  <img src="feature-2.jpg" alt="Caracteristică 2 Slimjet">
-  <img src="feature-3.jpg" alt="Caracteristică 3 Slimjet">
-  <img src="feature-4.jpg" alt="Caracteristică 4 Slimjet">
-  <img src="feature-5.jpg" alt="Caracteristică 5 Slimjet">
+  <img src="feature-1.jpg" alt="Modern Layout Chrome">
+  <img src="feature-2.jpg" alt="Chrome Home Doodle">
+  <img src="feature-3.jpg" alt="Chrome Home Swipe Logic">
+  <img src="feature-4.jpg" alt="Chrome Home Expand Button">
+  <img src="feature-5.jpg" alt="Chrome Home">
 </div>
  <div class="newsletter-form">
         <h2>Abonează-te la newsletterul nostru</h2>
