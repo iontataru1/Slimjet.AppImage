@@ -56,6 +56,218 @@ view-source:chrome-extension://oogmkbpkoblajkomflhkkdmbfggdmefd/inicio.html
 
 
 
+body {
+  background: url('calea-catrea-imagine') center center fixed;
+  background-size: cover;
+  color: #ffffff; /* Culoarea textului */
+  font-size: 24px; /* Mărimea textului */
+}
+
+#top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#logo {
+  width: 100px; /* Lățimea logo-ului */
+  height: auto;
+}
+
+.custom-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+html
+
+<div id="top-bar">
+  <img id="logo" src="calea-catre-logo" alt="Logo Slimjet">
+  <div class="custom-text">
+    Slimjet Personalizat
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noua pagina oficiala Slimjet</title>
+  <link rel="icon" href="new-icon.png" type="image/png">
+  <style>
+    /* Stiluri pentru pagina dvs. Slimjet */
+    body {
+      background-color: #f4f4f4; /* Culoarea fundalului */
+      font-family: Arial, sans-serif; /* Familia de fonturi */
+      color: #333; /* Culoarea textului principal */
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #4285f4; /* Culoarea specifică Chrome */
+    }
+
+    .background-image {
+      width: 100%;
+      height: 400px; /* Înălțimea imaginii de fundal */
+      background-image: url('background.jpg'); /* Adresa imaginii de fundal */
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff; /* Culoarea textului pe imaginea de fundal */
+      text-align: center;
+    }
+
+    .image-slider {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .image-slider img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #4285f4; /* Bordură specifică Chrome */
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    .newsletter-form {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .newsletter-form input {
+      padding: 10px;
+      margin: 5px;
+      width: 200px;
+    }
+
+    .newsletter-form input[type="submit"] {
+      background-color: #4285f4; /* Culoarea butonului specifică Chrome */
+      color: #fff;
+      cursor: pointer;
+    }
+
+    a button {
+      background-color: #4285f4; /* Culoarea butonului specifică Chrome */
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .chrome-home-elements {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .chrome-home-elements img {
+      max-width: 100%;
+      height: auto;
+      margin: 10px;
+    }
+
+    #expand-button {
+      background-color: #4285f4; /* Culoarea butonului specifică Chrome */
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Slimjet Modern</h1>
+
+  <div class="background-image">
+    <p>Imagine de fundal Slimjet</p>
+  </div>
+
+  <div class="image-slider">
+  <img src="feature-1.jpg" alt="Caracteristică 1 Slimjet">
+  <img src="feature-2.jpg" alt="Caracteristică 2 Slimjet">
+  <img src="feature-3.jpg" alt="Caracteristică 3 Slimjet">
+  <img src="feature-4.jpg" alt="Caracteristică 4 Slimjet">
+  <img src="feature-5.jpg" alt="Caracteristică 5 Slimjet">
+</div>
+ <div class="newsletter-form">
+        <h2>Abonează-te la newsletterul nostru</h2>
+        <input type="email" placeholder="Adresa ta de email">
+        <input type="submit" value="Abonați-vă">
+    </div>
+
+    <a href="download.html">
+    <button>Descarcă Slimjet</button>
+</a>
+
+<p>Acesta este un exemplu de pagină oficială modernă pentru browserul Slimjet.</p>
+
+<div class="chrome-home-elements">
+    <img src="chrome-home-doodle.png" alt="Doodle Chrome Home">
+    <button id="expand-button">Expand</button>
+</div>
+
+<!-- Adăugați aici alte elemente și imagini specificate în întrebare. -->
+
+</body>
+</html>
+
+
+  <a href="download.html">
+    <button>Descarcă Slimjet</button>
+  </a>
+
+  <p>Acesta este un exemplu de pagina oficiala moderna pentru browserul Slimjet.</p>
+
+  <div class="chrome-home-elements">
+    <img src="chrome-home-doodle.png" alt="Doodle Chrome Home">
+    <button id="expand-button">Expand</button>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
 
 
 
