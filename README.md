@@ -22,7 +22,74 @@ view-source:chrome-extension://oogmkbpkoblajkomflhkkdmbfggdmefd/inicio.html
     <script type="text/javascript" src="/js/jquery.sortile.js"></script>
     <script type="text/javascript" src="/js/utilidades.js"></script>
     <script type="text/javascript" src="/js/livecards.js"></script>
-    <script type="text/javascript" src="/js/tilemodel.js"></script>
+    <script type="text/javascript" src="/js/tilemodel.js"></script><!-- options.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Setări extensie</title>
+</head>
+<body>
+    <h1>Setări extensie</h1>
+    <button id="enableCookies">Activează toate cookie-urile</button>
+    <button id="blockThirdParty">Blochează cookie-urile terță parte</button>
+    <button id="blockAllCookies">Blochează toate cookie-urile</button>
+
+    <script src="options.js"></script>
+</body>
+</html>
+
+javascript
+
+// options.js
+
+document.getElementById('enableCookies').addEventListener('click', function() {
+  // Activează toate cookie-urile
+  chrome.cookies.set({
+    url: 'https://www.example.com',
+    name: 'exampleCookie',
+    value: 'exampleValue'
+  });
+});
+
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  // Blochează cookie-urile terță parte
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+
+document.getElementById('blockAllCookies').addEventListener('click', function() {
+  // Blochează toate cookie-urile
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+
+javascript
+
+// background.js
+
+chrome.runtime.onInstalled.addListener(function() {
+  // Adaugă un buton în bara de instrumente
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    // Deschide o nouă fereastră cu opțiunile extensiei
+    chrome.tabs.create({ 'url': chrome.extension.getURL('options.html') });
+  });
+
+  // Setează opțiunea pentru a șterge cookie-urile și datele de navigare când închizi toate ferestrele
+  chrome.runtime.onStartup.addListener(function() {
+    chrome.browsingData.remove({}, { cookies: true, localStorage: true, indexedDB: true });
+  });
+
+  // Trimite solicitarea "Do Not Track" odată cu traficul de navigare
+  chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+      details.requestHeaders.push({ name: 'DNT', value: '1' });
+      return { requestHeaders: details.requestHeaders };
+    },
+    { urls: ['<all_urls>'] },
+    ['blocking', 'requestHeaders']
+  );
+});
+
+
     <script type="text/javascript" defer src="/js/lateral.js"></script>
     <script type="text/javascript" defer src="/js/inicio.js"></script>
     <script type="text/javascript" src="/js/tilebkp.js"></script>
@@ -54,6 +121,684 @@ view-source:chrome-extension://oogmkbpkoblajkomflhkkdmbfggdmefd/inicio.html
 </html>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Conținutul paginii -->
+</body>
+</html>
+/* CSS3 styles */
+body {
+    background-color: #f0f0f0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML6 Example</title>
+</head>
+<body>
+    <h1>Hello, HTML6!</h1>
+    <!-- Alte elemente HTML6 -->
+</body>
+</html>
+/* CSS4 styles */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Alte stiluri CSS4 */
+// Cod JavaScript conform specificațiilor JS actuale
+console.log("Hello, JavaScript!");
+// Alte funcționalități JS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Conținutul paginii HTML6 -->
+</body>
+</html>
+// background.js
+
+// Ascultă evenimentul când extensia este instalată
+chrome.runtime.onInstalled.addListener(function() {
+  // Adaugă un buton în bara de instrumente
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    // Deschide o nouă fereastră cu opțiunile extensiei
+    chrome.tabs.create({ 'url': chrome.extension.getURL('options.html') });
+  });
+});
+
+// options.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Setări extensie</title>
+  </head>
+  <body>
+    <h1>Setări extensie</h1>
+    <button id="enableCookies">Activează toate cookie-urile</button>
+    <button id="blockThirdParty">Blochează cookie-urile terță parte</button>
+    <button id="blockAllCookies">Blochează toate cookie-urile</button>
+
+    <script src="options.js"></script>
+  </body>
+</html>
+
+// options.js
+
+document.getElementById('enableCookies').addEventListener('click', function() {
+  // Activează toate cookie-urile
+  chrome.cookies.set({ url: 'https://www.example.com', name: 'exampleCookie', value: 'exampleValue' });
+});
+
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  // Blochează cookie-urile terță parte
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+
+document.getElementById('blockAllCookies').addEventListener('click', function() {
+  // Blochează toate cookie-urile
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+// options.js
+
+document.getElementById('enableCookies').addEventListener('click', function() {
+  // Activează toate cookie-urile
+  chrome.cookies.set({
+    url: 'https://www.example.com',
+    name: 'exampleCookie',
+    value: 'exampleValue'
+  });
+});
+// background.js
+
+chrome.runtime.onInstalled.addListener(function() {
+  // Adaugă un buton în bara de instrumente
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    // Deschide o nouă fereastră cu opțiunile extensiei
+    chrome.tabs.create({ 'url': chrome.extension.getURL('options.html') });
+  });
+});
+
+// Setează opțiunea pentru a șterge cookie-urile și datele de navigare când închizi toate ferestrele
+chrome.runtime.onStartup.addListener(function() {
+  chrome.browsingData.remove({}, { cookies: true, localStorage: true, indexedDB: true });
+});
+
+// Trimite solicitarea "Do Not Track" odată cu traficul de navigare
+chrome.webRequest.onBeforeSendHeaders.addListener(
+  function(details) {
+    details.requestHeaders.push({ name: 'DNT', value: '1' });
+    return { requestHeaders: details.requestHeaders };
+  },
+  { urls: ['<all_urls>'] },
+  ['blocking', 'requestHeaders']
+);
+<!-- options.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Setări extensie</title>
+</head>
+<body>
+    <h1>Setări extensie</h1>
+    <button id="enableCookies">Activează toate cookie-urile</button>
+    <button id="blockThirdParty">Blochează cookie-urile terță parte</button>
+    <button id="blockAllCookies">Blochează toate cookie-urile</button>
+
+    <script src="options.js"></script>
+</body>
+</html>
+// options.js
+
+document.getElementById('enableCookies').addEventListener('click', function() {
+  // Activează toate cookie-urile
+  chrome.cookies.set({
+    url: 'https://www.example.com',
+    name: 'exampleCookie',
+    value: 'exampleValue'
+  });
+});
+
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  // Blochează cookie-urile terță parte
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+
+document.getElementById('blockAllCookies').addEventListener('click', function() {
+  // Blochează toate cookie-urile
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+// background.js
+
+chrome.runtime.onInstalled.addListener(function() {
+  // Adaugă un buton în bara de instrumente
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    // Deschide o nouă fereastră cu opțiunile extensiei
+    chrome.tabs.create({ 'url': chrome.extension.getURL('options.html') });
+  });
+
+  // Setează opțiunea pentru a șterge cookie-urile și datele de navigare când închizi toate ferestrele
+  chrome.runtime.onStartup.addListener(function() {
+    chrome.browsingData.remove({}, { cookies: true, localStorage: true, indexedDB: true });
+  });
+
+  // Trimite solicitarea "Do Not Track" odată cu traficul de navigare
+  chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+      details.requestHeaders.push({ name: 'DNT', value: '1' });
+      return { requestHeaders: details.requestHeaders };
+    },
+    { urls: ['<all_urls>'] },
+    ['blocking', 'requestHeaders']
+  );
+});
+{
+  "manifest_version": 2,
+  "name": "Gestionare Cookie-uri",
+  "version": "1.0",
+  "description": "Extensie pentru gestionarea cookie-urilor",
+  "permissions": ["cookies", "webRequest", "webRequestBlocking", "storage"],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Setări Cookie-uri</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Setări Cookie-uri</h1>
+  <button id="blockThirdParty">Blochează cookie-urile terță parte</button>
+</body>
+</html>
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+chrome.runtime.onInstalled.addListener(function() {
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    chrome.tabs.create({ 'url': chrome.extension.getURL('popup.html') });
+  });
+});
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setări Cookie-uri</title>
+</head>
+<body>
+    <h1>Setări Cookie-uri</h1>
+
+    <form>
+        <label>
+            <input type="radio" name="cookieSettings" value="allow" checked>
+            Permiteți toate cookie-urile
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="cookieSettings" value="blockThirdParty">
+            Blochează cookie-urile terță parte
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="cookieSettings" value="blockAll">
+            Blochează toate cookie-urile
+        </label>
+        <br>
+
+        <button type="submit">Salvează</button>
+    </form>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const selectedOption = document.querySelector('input[name="cookieSettings"]:checked').value;
+
+            // Aici poți adăuga cod JavaScript pentru a gestiona opțiunile selectate
+            // De exemplu, poți trimite o solicitare către server sau să setezi un cookie personalizat
+            console.log('Opțiune selectată:', selectedOption);
+        });
+    </script>
+</body>
+</html>
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "Gestionare Cookie-uri",
+  "version": "1.0",
+  "description": "Extensie pentru gestionarea cookie-urilor",
+  "permissions": ["<all_urls>", "cookies"],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Setări Cookie-uri</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Setări Cookie-uri</h1>
+  <button id="blockThirdParty">Blochează cookie-urile terță parte</button>
+</body>
+</html>
+// popup.js
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  chrome.contentSettings.cookies.set({ primaryPattern: '<all_urls>', setting: 'block' });
+});
+{
+  "manifest_version": 2,
+  "name": "Gestionare Cookie-uri",
+  "version": "1.0",
+  "description": "Extensie pentru gestionarea cookie-urilor",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+chrome.webRequest.onBeforeSendHeaders.addListener(
+  function(details) {
+    // Adaugă un header pentru a bloca cookie-urile terță parte
+    details.requestHeaders.push({ name: 'Cookie', value: 'SameSite=Lax' });
+    return { requestHeaders: details.requestHeaders };
+  },
+  { urls: ["<all_urls>"] },
+  ["blocking", "requestHeaders"]
+);
+{
+  "manifest_version": 2,
+  "name": "Gestionare Cookie-uri",
+  "version": "1.0",
+  "description": "Extensie pentru gestionarea cookie-urilor",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Setări Cookie-uri</title>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1>Setări Cookie-uri</h1>
+  <button id="enableCookies">Activează toate cookie-urile</button>
+  <button id="blockThirdParty">Blochează cookie-urile terță parte</button>
+  <button id="blockAllCookies">Blochează toate cookie-urile</button>
+</body>
+</html>
+document.getElementById('enableCookies').addEventListener('click', function() {
+  // Adaugă cod pentru a activa cookie-urile
+  console.log('Activează toate cookie-urile');
+});
+
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  // Adaugă cod pentru a bloca cookie-urile terță parte
+  console.log('Blochează cookie-urile terță parte');
+});
+
+document.getElementById('blockAllCookies').addEventListener('click', function() {
+  // Adaugă cod pentru a bloca toate cookie-urile
+  console.log('Blochează toate cookie-urile');
+});
+chrome.runtime.onStartup.addListener(function() {
+  chrome.browsingData.remove({}, { cookies: true, localStorage: true, indexedDB: true });
+});
+
+chrome.webRequest.onBeforeSendHeaders.addListener(
+  function(details) {
+    details.requestHeaders.push({ name: 'DNT', value: '1' });
+    return { requestHeaders: details.requestHeaders };
+  },
+  { urls: ['<all_urls>'] },
+  ['blocking', 'requestHeaders']
+);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cookie-urile și alte date privind site-urile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cookie-urile și alte date privind site-urile</h1>
+    
+    <p><strong>Setări generale:</strong></p>
+    <p>1. <button id="enableCookies">Permiteți toate cookie-urile</button></p>
+    <p>2. <button id="blockThirdParty">Blochează cookie-urile terță parte</button></p>
+    <p>3. <button id="blockAllCookies">Blochează toate cookie-urile (nu este recomandat)</button></p>
+    
+    <p><strong>Site-urile nu pot folosi cookie-uri pentru:</strong></p>
+    <p>4. <button id="improveExperience">Îmbunătățirea experienței de navigare</button></p>
+    <p>5. <button id="keepConnected">Menținerea conexiunii</button></p>
+    <p>6. <button id="retainCart">Reținerea articolelor din coșul de cumpărături</button></p>
+    
+    <p><strong>Site-urile nu pot folosi cookie-uri pentru a-ți vedea activitatea de navigare de pe diferite site-uri, de exemplu, pentru a personaliza anunțurile. Este posibil ca funcțiile de pe mai multe site-uri să nu funcționeze:</strong></p>
+    <p>7. <button id="blockThirdPartyGeneral">Blochează toate cookie-urile terță parte</button></p>
+    
+    <p><strong>În modul incognito, site-urile nu pot folosi cookie-uri pentru:</strong></p>
+    <p>8. <button id="incognitoImprove">Îmbunătățirea experienței de navigare</button></p>
+    <p>9. <button id="incognitoKeepConnected">Menținerea conexiunii</button></p>
+    <p>10. <button id="incognitoRetainCart">Reținerea articolelor din coșul de cumpărături</button></p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
+document.getElementById('enableCookies').addEventListener('click', function() {
+  console.log('Permiteți toate cookie-urile');
+  // Adaugă cod pentru a activa cookie-urile
+});
+
+document.getElementById('blockThirdParty').addEventListener('click', function() {
+  console.log('Blochează cookie-urile terță parte');
+  // Adaugă cod pentru a bloca cookie-urile terță parte
+});
+
+document.getElementById('blockAllCookies').addEventListener('click', function() {
+  console.log('Blochează toate cookie-urile (nu este recomandat)');
+  // Adaugă cod pentru a bloca toate cookie-urile
+});
+
+// Adaugă funcționalități similare pentru celelalte butoane
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cookie-urile și alte date privind site-urile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cookie-urile și alte date privind site-urile</h1>
+    
+    <p><strong>Setări generale:</strong></p>
+    <p>1. <button id="enableCookies">Permiteți toate cookie-urile</button></p>
+    <p>2. <button id="blockThirdParty">Blochează cookie-urile terță parte</button></p>
+    <p>3. <button id="blockAllCookies">Blochează toate cookie-urile (nu este recomandat)</button></p>
+    
+    <p><strong>Site-urile nu pot folosi cookie-uri pentru:</strong></p>
+    <p>4. <button id="improveExperience">Îmbunătățirea experienței de navigare</button></p>
+    <p>5. <button id="keepConnected">Menținerea conexiunii</button></p>
+    <p>6. <button id="retainCart">Reținerea articolelor din coșul de cumpărături</button></p>
+    
+    <p><strong>Site-urile nu pot folosi cookie-uri pentru a-ți vedea activitatea de navigare de pe diferite site-uri, de exemplu, pentru a personaliza anunțurile. Este posibil ca funcțiile de pe mai multe site-uri să nu funcționeze:</strong></p>
+    <p>7. <button id="blockThirdPartyGeneral">Blochează toate cookie-urile terță parte</button></p>
+    <p>8. <button id="blockMultiSiteFunctions">Funcțiile de pe mai multe site-uri să nu funcționeze</button></p>
+    
+    <p><strong>În modul incognito, site-urile nu pot folosi cookie-uri pentru:</strong></p>
+    <p>9. <button id="incognitoImprove">Îmbunătățirea experienței de navigare</button></p>
+    <p>10. <button id="incognitoKeepConnected">Menținerea conexiunii</button></p>
+    <p>11. <button id="incognitoRetainCart">Reținerea articolelor din coșul de cumpărături</button></p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
+<!-- popup.js -->
+document.getElementById('blockMultiSiteFunctions').addEventListener('click', function() {
+  // Adăugă aici logica pentru blocarea funcțiilor de pe mai multe site-uri
+  alert("Funcțiile de pe mai multe site-uri sunt acum blocate.");
+});
+// background.js
+
+// Ascultă evenimentul când extensia este instalată
+chrome.runtime.onInstalled.addListener(function() {
+  // Adaugă un buton în bara de instrumente
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    // Deschide o nouă fereastră cu opțiunile extensiei
+    chrome.tabs.create({ 'url': chrome.extension.getURL('options.html') });
+  });
+
+  // Setează opțiunea pentru a șterge cookie-urile și datele de navigare când închizi toate ferestrele
+  chrome.windows.onRemoved.addListener(function(windowId) {
+    chrome.browsingData.remove({}, { cookies: true, localStorage: true, indexedDB: true });
+  });
+
+  // Trimite solicitarea "Do Not Track" odată cu traficul de navigare
+  chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+      details.requestHeaders.push({ name: 'DNT', value: '1' });
+      return { requestHeaders: details.requestHeaders };
+    },
+    { urls: ['<all_urls>'] },
+    ['blocking', 'requestHeaders']
+  );
+});
+// background.js
+
+// Ascultă evenimentul când extensia este instalată
+chrome.runtime.onInstalled.addListener(function() {
+  // Adaugă un buton în bara de instrumente
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    // Deschide o nouă fereastră cu opțiunile extensiei
+    chrome.tabs.create({ 'url': chrome.extension.getURL('options.html') });
+  });
+
+  // Setează opțiunea pentru a șterge cookie-urile și datele de navigare când închizi toate ferestrele
+  chrome.windows.onRemoved.addListener(function(windowId) {
+    chrome.browsingData.remove({}, { cookies: true, localStorage: true, indexedDB: true });
+  });
+
+  // Trimite solicitarea "Do Not Track" odată cu traficul de navigare
+  chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+      // Adaugă header-ul DNT doar dacă funcția "Nu urmări" este activată
+      if (localStorage.getItem('doNotTrackEnabled') === 'true') {
+        details.requestHeaders.push({ name: 'DNT', value: '1' });
+      }
+      return { requestHeaders: details.requestHeaders };
+    },
+    { urls: ['<all_urls>'] },
+    ['blocking', 'requestHeaders']
+  );
+});
+// options.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Setări extensie</title>
+</head>
+<body>
+    <h1>Setări extensie</h1>
+    <label>
+      <input type="checkbox" id="doNotTrackCheckbox"> Activează "Nu urmări"
+    </label>
+
+    <script src="options.js"></script>
+</body>
+</html>
+// options.js
+
+// Salvează starea funcției "Nu urmări" în localStorage
+document.getElementById('doNotTrackCheckbox').addEventListener('change', function() {
+  localStorage.setItem('doNotTrackEnabled', this.checked);
+});
+// background.js
+
+chrome.runtime.onInstalled.addListener(function() {
+  // ... restul codului
+
+  chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+      // Adaugă header-ul DNT doar dacă funcția "Nu urmări" este activată
+      if (localStorage.getItem('doNotTrackEnabled') === 'true') {
+        details.requestHeaders.push({ name: 'DNT', value: '1' });
+      }
+      return { requestHeaders: details.requestHeaders };
+    },
+    { urls: ['<all_urls>'] },
+    ['blocking', 'requestHeaders']
+  );
+});
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dacă activezi funcția „Nu urmări”</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #4CAF50;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dacă activezi funcția „Nu urmări”</h1>
+
+    <p><strong>Efectele depind de răspunsul site-ului la solicitare și de modul în care solicitarea este interpretată.</strong></p>
+
+    <p>De exemplu, unele site-uri pot răspunde la această solicitare afișând anunțuri care nu sunt bazate pe alte site-uri accesate de tine. Numeroase site-uri vor culege și vor utiliza în continuare datele tale de navigare, de exemplu, pentru a îmbunătăți securitatea, pentru a oferi conținut, servicii, anunțuri și recomandări și pentru a genera statistici de raportare.</p>
+
+    <p>Află mai multe despre funcția „Nu urmări” <a href="#">aici</a>.</p>
+
+    <button id="transformAdvantages">Transformă dezavantajele în avantaje</button>
+
+    <script>
+        document.getElementById('transformAdvantages').addEventListener('click', function() {
+            alert('Dezavantajele au fost transformate în avantaje!');
+            // Aici poți adăuga logica specifică pentru transformarea dezavantajelor în avantaje
+        });
+    </script>
+</body>
+</html>
+document.getElementById('transformAdvantages').addEventListener('click', function() {
+    alert('Acum poți beneficia de următoarele avantaje:');
+    alert('1. Anunțurile afișate sunt mai relevante și personalizate pentru tine.');
+    alert('2. Experiența ta de navigare este îmbunătățită datorită conținutului și serviciilor adaptate nevoilor tale.');
+    alert('3. Datele tale de navigare contribuie la îmbunătățirea securității online.');
+    alert('4. Primești recomandări mai utile și personalizate.');
+    alert('5. Contribui la generarea de statistici de raportare care ajută la dezvoltarea continuă a serviciilor online.');
+
+    // Poți adăuga și alți pași sau să personalizezi mesajele în funcție de cerințele tale
+});
 
 
 body {
