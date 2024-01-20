@@ -96,6 +96,392 @@ html
 
 
 
+<!doctype html>
+<html dir="ltr"
+      hascustombackground="true"
+      lang="ro"
+      class="md">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light dark">
+<title>Filă incognito nouă</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBmaWxsPSIjNDU1QTY0Ij48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDB6Ii8+PHBhdGggZD0iTTMgMTFoMTh2MUgzem0xNC42Mi0xLTIuMjktNi4xYy0uMTktLjUtLjc0LS43Ny0xLjI1LS42TDEyIDRsLTIuMDktLjdjLS41MS0uMTctMS4wNi4xLTEuMjUuNkw2LjM4IDEwaDExLjI0em0tMS4xMiAzYy0xLjY2IDAtMy4wNCAxLjE2LTMuNCAyLjcxLS44NC0uMzYtMS42Mi0uMjYtMi4yLS4wMUEzLjUwMyAzLjUwMyAwIDAgMCA3LjUgMTNDNS41NyAxMyA0IDE0LjU3IDQgMTYuNVM1LjU3IDIwIDcuNSAyMGMxLjg0IDAgMy4zMy0xLjQyIDMuNDctMy4yMi4zLS4yMSAxLjA5LS42IDIuMDYuMDIuMTYgMS43OSAxLjY0IDMuMiAzLjQ3IDMuMiAxLjkzIDAgMy41LTEuNTcgMy41LTMuNVMxOC40MyAxMyAxNi41IDEzem0tOSA2YTIuNSAyLjUgMCAwIDEgMC01IDIuNSAyLjUgMCAwIDEgMCA1em05IDBhMi41IDIuNSAwIDAgMSAwLTUgMi41IDIuNSAwIDAgMSAwIDV6Ii8+PC9zdmc+">
+<meta name="viewport" content="width=device-width">
+<link id="incognitothemecss" rel="stylesheet">
+<script>
+// Until themes can clear the cache, force-reload the theme stylesheet.
+document.querySelector('#incognitothemecss').href =
+    'chrome://theme/css/incognito_tab_theme.css?' + Date.now();
+</script>
+<link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
+<style>/* Copyright 2021 The Chromium Authors
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+ body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 100%;
+  margin: 0;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/** Typography -------------------------------------------------------------- */
+
+.content {
+  color: rgb(232, 234, 237);  /* --google-grey-200 */
+  font-size: calc(100% - 2px);
+  line-height: calc(100% + 6px);
+  min-width: 240px;
+}
+
+h1 {
+  font-size: calc(100% + 8px);
+  font-weight: 700;
+  line-height: calc(100% + 8px);
+  text-align: center;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: 500;
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+
+em {
+  color: white;
+  font-style: normal;
+}
+
+.learn-more-wrapper > a {
+  color: rgb(138, 180, 248);
+}
+
+/* Small font on small screens. */
+@media (max-width: 240px),
+       (max-height: 320px) {
+  .content {
+    font-size: calc(100% - 4px);
+    line-height: calc(100% + 6px);
+  }
+
+  h1 {
+    font-size: calc(100% + 4px);
+    line-height: calc(100% + 4px);
+  }
+}
+
+/** Icon -------------------------------------------------------------------- */
+
+.icon {
+  content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0wIDBoMTIwdjEyMEgweiIvPjxwYXRoIGQ9Ik02MCAwYzMzLjEzNyAwIDYwIDI2Ljg2MyA2MCA2MHMtMjYuODYzIDYwLTYwIDYwUzAgOTMuMTM3IDAgNjAgMjYuODYzIDAgNjAgMHptMTcuNSA2NC44MzdjLTYuNDU2IDAtMTEuODIyIDQuNTAyLTEzLjIyMiAxMC41MTYtMy4yNjctMS4zOTctNi4zLTEuMDA5LTguNTU2LS4wMzlDNTQuMjgzIDY5LjMgNDguOTE3IDY0LjgzNyA0Mi41IDY0LjgzN2MtNy41MDYgMC0xMy42MTEgNi4wOTItMTMuNjExIDEzLjU4MkMyOC44ODkgODUuOTA4IDM0Ljk5NCA5MiA0Mi41IDkyYzcuMTU2IDAgMTIuOTUtNS41MSAxMy40OTQtMTIuNDk1IDEuMTY3LS44MTUgNC4yNC0yLjMyOCA4LjAxMi4wNzhDNjQuNjI4IDg2LjUyOSA3MC4zODMgOTIgNzcuNSA5MmM3LjUwNiAwIDEzLjYxMS02LjA5MiAxMy42MTEtMTMuNTgxIDAtNy40OS02LjEwNS0xMy41ODItMTMuNjExLTEzLjU4MnptLTM1IDMuODhjNS4zNjcgMCA5LjcyMiA0LjM0NyA5LjcyMiA5LjcwMiAwIDUuMzU1LTQuMzU1IDkuNy05LjcyMiA5LjctNS4zNjcgMC05LjcyMi00LjM0NS05LjcyMi05LjcgMC01LjM1NSA0LjM1NS05LjcwMSA5LjcyMi05LjcwMXptMzUgMGM1LjM2NyAwIDkuNzIyIDQuMzQ3IDkuNzIyIDkuNzAyIDAgNS4zNTUtNC4zNTUgOS43LTkuNzIyIDkuNy01LjM2NyAwLTkuNzIyLTQuMzQ1LTkuNzIyLTkuNyAwLTUuMzU1IDQuMzU1LTkuNzAxIDkuNzIyLTkuNzAxek05NSA1N0gyNXY0aDcwdi00ek03Mi44NzQgMjkuMzRjLS44LTEuODItMi44NjYtMi43OC00Ljc4NS0yLjE0M0w2MCAyOS45MTRsLTguMTI4LTIuNzE3LS4xOTItLjA1OGMtMS45MjgtLjUzMy0zLjk1NC41MS00LjY2OSAyLjM4N0wzOC4xNDQgNTNoNDMuNzEyTDcyLjk1IDI5LjUyNnoiIGZpbGw9IiNEQURDRTAiLz48L2c+PC9zdmc+);
+  height: 96px;
+  width: 96px;
+}
+
+/* Medium-sized icon on medium-sized screens. */
+@media (max-height: 480px),
+       (max-width: 720px) {
+  .icon {
+    height: 72px;
+    width: 72px;
+  }
+}
+
+/* Very small icon on very small screens. */
+@media (max-width: 720px) {
+  @media (max-width: 240px),
+         (max-height: 480px) {
+    .icon {
+      height: 48px;
+      width: 48px;
+    }
+  }
+}
+
+/** Cookie Controls --------------------------------------------------------- */
+#cookie-controls {
+  align-items: center;
+  background-color: rgb(42, 42, 43);
+  border-radius: 16px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 16px;
+}
+
+#cookie-controls-description {
+  flex: 1;
+  padding-inline-end: 12px;
+}
+
+#cookie-controls-description em {
+  display: block;
+}
+
+#cookie-controls-toggle,
+#cookie-controls-tooltip-icon {
+  flex: none;
+}
+
+#cookie-controls-toggle:not(:defined) {
+  width: 34px;
+}
+
+#cookie-controls-tooltip-icon {
+  margin-inline-end: 24px; /* var(--cr-controlled-by-spacing) */
+}
+
+#cookie-controls-tooltip-icon:not(:defined) {
+  width: 20px; /* var(--cr-icon-size) */
+}
+
+/** Layout ------------------------------------------------------------------ */
+
+/* Align the content, icon, and title to to the center. */
+.content {
+  --content-max-width: 680px;
+  --description-item-spacing: 16px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  max-width: var(--content-max-width);
+}
+
+.icon {
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+}
+
+/* Align the two columns of descriptions next to each other. */
+#descriptions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.descriptions {
+  flex-basis: calc((100% - var(--description-item-spacing)) / 2);
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.descriptions.first {
+  margin-inline-end: var(--description-item-spacing);
+}
+
+h1,
+.learn-more-wrapper,
+.descriptions {
+  margin-block-end: 32px;
+}
+
+.icon {
+  margin-block-end: 16px;
+}
+
+/* On narrow screens, align everything to the left. */
+@media (max-width: 720px) {
+  .content {
+    max-width: var(--content-max-width) !important;  /* must override the rule set by JS which
+                                                      * is only valid for width > 720px cases. */
+    text-align: start;
+  }
+
+  .icon {
+    margin-inline-start: 0;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  #descriptions-wrapper {
+    flex-direction: column;
+  }
+
+  .descriptions.first {
+    margin-inline-end: 0;
+  }
+}
+
+/** Paddings and margins ---------------------------------------------------- */
+
+.descriptions ul {
+  margin: 8px 0 0;
+  padding-inline-start: 16px;
+}
+
+/* Wide screens. */
+@media (min-width: 721px) {
+  .icon {
+    margin-top: 1.5rem;
+  }
+
+  .content {
+    margin-top: 40px;
+    min-width: 240px;
+    padding: 8px 48px 24px;
+  }
+
+  /* Snap the content box to the whole height on short screens. */
+  @media (max-height: 480px) {
+    html,
+    body,
+    .content {
+      height: 100%;
+    }
+
+    .content {
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+
+    .icon {
+      margin-top: 0;
+      padding-top: 32px;  /* Define the top offset through the icon's padding,
+                           * otherwise the screen height would be 100% + 32px */
+    }
+  }
+}
+
+/* Narrow screens */
+@media (max-width: 720px) {
+  .content {
+    min-width: 176px;
+    padding: 72px 32px;
+  }
+
+  .icon {
+    margin-top: 1.5rem;
+  }
+
+  /* Smaller offsets on smaller screens. */
+  @media (max-height: 600px) {
+    .content {
+      padding-top: 48px;
+    }
+
+    .icon {
+      margin-top: 1rem;
+    }
+  }
+
+  /* Small top offset on very small screens. */
+  @media (max-height: 480px) {
+    .content {
+      padding-top: 32px;
+    }
+  }
+}
+
+/* Very narrow screens. */
+@media (max-width: 240px) {
+  .content {
+    min-width: 192px;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+  }
+}
+</style>
+</head>
+<body>
+<div class="content">
+  <div class="icon" role="presentation" alt=""></div>
+  <h1>Modul incognito în Slimjet</h1>
+  <div id="descriptions-wrapper">
+    <div class="descriptions first">
+      <h2>Ce face modul incognito</h2>
+      Când închizi toate filele incognito din Slimjet, activitatea ta din acele file este eliminată de pe dispozitiv:
+          <ul>
+            <li>activitatea de navigare,</li>
+            <li>istoricul căutărilor,</li>
+            <li>informațiile introduse în formulare.</li>
+          </ul>
+    </div>
+    <div class="descriptions">
+      <h2>Ce nu face modul incognito</h2>
+      Modul incognito nu îți asigură invizibilitatea online:
+        <ul>
+          <li>site-urile și serviciile pe care le folosesc știu când le accesezi;</li>
+          <li>angajatorii sau școlile pot să urmărească activitatea de navigare;</li>
+          <li>furnizorii de servicii de internet pot monitoriza traficul pe web.</li>
+        </ul>
+    </div>
+  </div>
+  <div class="learn-more-wrapper"><a>Află mai multe despre modul incognito în Slimjet</a></div>
+  <div id="cookie-controls">
+    <div id="cookie-controls-description">
+      <em>Blochează cookie-urile terță parte în modul incognito</em>
+      <span>Site-urile nu pot folosi cookie-uri care te urmăresc pe web. Este posibil ca funcțiile de pe anumite site-uri să fie întrerupte.</span>
+    </div>
+    <div >
+      <cr-tooltip-icon id="cookie-controls-tooltip-icon"
+          icon-aria-label="Blochează cookie-urile terță parte în modul incognito"
+          icon-class="cr:settings_icon"
+          tooltip-text="Setarea este controlată din setările cookie-urilor."
+          role="link" style="cursor: pointer;">
+      </cr-tooltip-icon>
+    </div>
+    <cr-toggle id="cookie-controls-toggle"
+               aria-label="Blochează cookie-urile terță parte în modul incognito"
+               
+               checked dark></cr-toggle>
+  </div>
+</div>
+<script type="module">// Copyright 2017 The Chromium Authors
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import {addWebUiListener} from 'chrome://resources/js/cr.js';
+import {$} from 'chrome://resources/js/util.js';
+
+window.addEventListener('load', function() {
+  let cookieSettingsUrl;
+
+  addWebUiListener('theme-changed', themeData => {
+    document.documentElement.setAttribute(
+        'hascustombackground', themeData.hasCustomBackground);
+    $('incognitothemecss').href =
+        'chrome://theme/css/incognito_tab_theme.css?' + Date.now();
+  });
+  chrome.send('observeThemeChanges');
+
+  addWebUiListener('cookie-controls-changed', dict => {
+    $('cookie-controls-tooltip-icon').hidden = !dict.enforced;
+    $('cookie-controls-tooltip-icon').iconClass = dict.icon;
+    $('cookie-controls-toggle').disabled = dict.enforced;
+    $('cookie-controls-toggle').checked = dict.checked;
+    cookieSettingsUrl = dict.cookieSettingsUrl;
+  });
+  $('cookie-controls-toggle').addEventListener('change', event => {
+    chrome.send('cookieControlsToggleChanged', [event.detail]);
+  });
+  // Make cookie-controls-tooltip-icon respond to the enter key.
+  $('cookie-controls-tooltip-icon').addEventListener('keyup', event => {
+    if (event.key === 'Enter') {
+      $('cookie-controls-tooltip-icon').click();
+    }
+  });
+  $('cookie-controls-tooltip-icon').onclick = () => {
+    window.location.href = cookieSettingsUrl;
+  };
+  chrome.send('observeCookieControlsSettingsChanges');
+});
+</script>
+<script>
+  document.querySelector('.learn-more-wrapper a').href =
+    "https://support.google.com/chrome/?p=incognito"
+</script>
+<!-- Lazy-load cr_elements to avoid performance penalty introduced by loading Polymer -->
+<script type="module" src="chrome://resources/cr_elements/cr_toggle/cr_toggle.js" async></script>
+<script type="module" src="chrome://resources/cr_elements/policy/cr_tooltip_icon.js" async></script>
+</body>
+</html>
+
 
 
 
