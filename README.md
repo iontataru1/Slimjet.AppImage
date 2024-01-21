@@ -4288,6 +4288,1874 @@ it accessible to users around the world.</li>
 
 </html>
 
+    <div class="advantage">
+        <h2>Optimizare pentru motorul de căutare</h2>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance.</li>
+                <li>Manually choose the search engine for results.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>Public SearX instances might be monitored and tracked.</li>
+            </ul>
+        </div>
+        <p>SearX is an intuitive and user-friendly search engine that is gaining popularity. Visit SearX <a href="#">here</a>.</p>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads at all.</li>
+                <li>No records and no tracking.</li>
+                <li>Choose from a variety of search engines.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>US-based company.</li>
+                <li>Uses Amazon servers.</li>
+            </ul>
+        </div>
+        <p>Disconnect Search allows you to hide your IP address while browsing the internet and lets you do this with your preferred search engine. Try Disconnect <a href="#">here</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance.</li>
+                <li>Manually choose the search engine for results.</li>
+                <li>Public SearX instances might be monitored and tracked, but creating your private instance ensures your searches are not recorded.</li>
+            </ul>
+        </div>
+        <p>SearX is an intuitive and user-friendly search engine that is gaining popularity. Visit SearX <a href="#">here</a>.</p>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads at all.</li>
+                <li>No records and no tracking.</li>
+                <li>Choose from a variety of search engines.</li>
+                <li>US-based company.</li>
+                <li>Uses Amazon servers, ensuring reliable and secure service.</li>
+            </ul>
+        </div>
+        <p>Disconnect Search allows you to hide your IP address while browsing the internet and lets you do this with your preferred search engine. Try Disconnect <a href="#">here</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparatie Motoare de Căutare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Comparatie Motoare de Căutare</h1>
+
+    <!-- StartPage Engine -->
+    <div class="engine">
+        <h2>1. StartPage</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Rezultate de căutare identice cu Google.</li>
+                <li>Bazat în Olanda.</li>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Reclame netargetate.</li>
+                <li>Funcție de proxy.</li>
+                <li>Auditat independent.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Avantaje Reformulate:</h3>
+            <ul>
+                <li>Servere disponibile în SUA și alte locații, oferind flexibilitate utilizatorilor.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- DuckDuckGo Engine -->
+    <div class="engine">
+        <h2>2. DuckDuckGo</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Interfața arată uimitor.</li>
+                <li>Filtre contextuale.</li>
+                <li>Funcție "Bangs" pentru căutări personalizate.</li>
+                <li>Reclame neintruzive și netintite.</li>
+                <li>Rapid, aproape identic cu Google.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Avantaje Reformulate:</h3>
+            <ul>
+                <li>Folosește tehnologia Yahoo, aducând diversitate și acuratețe în rezultatele căutării.</li>
+                <li>Serverele deținute de Amazon asigură o infrastructură stabilă și rapidă.</li>
+                <li>Companie cu sediul în SUA, ceea ce poate inspira încredere în respectarea standardelor de securitate.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Informațiile furnizate sunt la data de cunoaștere (ianuarie 2024).</p>
+        <p>Adaptat de [Numele tău]</p>
+    </div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparatie Motoare de Căutare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Comparatie Motoare de Căutare</h1>
+
+    <!-- StartPage Engine -->
+    <div class="engine">
+        <h2>1. StartPage</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Rezultate de căutare identice cu Google.</li>
+                <li>Bazat în Olanda.</li>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Reclame netargetate.</li>
+                <li>Funcție de proxy.</li>
+                <li>Auditat independent.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Dezavantaje:</h3>
+            <ul>
+                <li>Serverele implicite sunt în SUA (deși puteți alege servere non-SUA).</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- DuckDuckGo Engine -->
+    <div class="engine">
+        <h2>2. DuckDuckGo</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Interfața arată uimitor.</li>
+                <li>Filtre contextuale.</li>
+                <li>Funcție "Bangs" pentru căutări personalizate.</li>
+                <li>Reclame neintruzive și netintite.</li>
+                <li>Rapid, aproape identic cu Google.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Dezavantaje:</h3>
+            <ul>
+                <li>Rezultatele se bazează în principal pe motorul de căutare Yahoo.</li>
+                <li>Toate serverele sunt deținute de Amazon.</li>
+                <li>Companie cu sediul în SUA.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Informațiile furnizate sunt la data de cunoaștere (ianuarie 2024).</p>
+        <p>Adaptat de [Numele tău]</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiență cu Slimjet Browser</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #4285f4; /* culoare specifică Google */
+    }
+
+    ul {
+      list-style-type: circle;
+      margin-left: 20px;
+    }
+
+    .advantage {
+      color: #34a853; /* culoare specifică Google */
+    }
+
+    .code-example {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Experiență cu Slimjet Browser</h1>
+
+  <h2>Avantaje în Slimjet:</h2>
+  <ul>
+    <li class="advantage">Viteza remarcabilă a navigării.</li>
+    <li class="advantage">Aspect similar cu Google, pentru o tranziție ușoară.</li>
+    <li class="advantage">Privire asemănătoare rezultatelor de căutare cu Google.</li>
+    <li class="advantage">Reclame afișate deasupra rezultatelor, dar fără a fi targetate.</li>
+    <li class="advantage">Posibilitatea activării sugestiilor de căutare.</li>
+    <li class="advantage">Căutări avansate cu parametri personalizați.</li>
+    <li class="advantage">Previzualizare video în rezultatele căutării.</li>
+  </ul>
+
+  <h2>Cod exemplu:</h2>
+  <div class="code-example">
+    <p>&lt;!-- Adăugați culori specifice Google pentru a evidenția avantajele --&gt;</p>
+    <p>&lt;style&gt;</p>
+    <p>body {</p>
+    <p>  font-family: 'Arial', sans-serif;</p>
+    <p>  margin: 20px;</p>
+    <p>}</p>
+    <p>h1 {</p>
+    <p>  color: #4285f4; /* culoare specifică Google */</p>
+    <p>}</p>
+    <p>ul {</p>
+    <p>  list-style-type: circle;</p>
+    <p>  margin-left: 20px;</p>
+    <p>}</p>
+    <p>.advantage {</p>
+    <p>  color: #34a853; /* culoare specifică Google */</p>
+    <p>}</p>
+    <p>.code-example {</p>
+    <p>  background-color: #f0f0f0;</p>
+    <p>  padding: 10px;</p>
+    <p>  margin-top: 10px;</p>
+    <p>  border-radius: 5px;</p>
+    <p>}</p>
+    <p>&lt;/style&gt;</p>
+    <p>&lt;/div&gt;</p>
+  </div>
+
+  <p>
+    Aceasta este o pagină simplă HTML care evidențiază avantajele Slimjet Browser, adăugând culori specifice Google pentru a crea o asociere cu familiaritatea utilizatorilor.
+  </p>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance.</li>
+                <li>Manually choose the search engine for results.</li>
+                <li>Public SearX instances might be monitored and tracked, but creating your private instance ensures your searches are not recorded.</li>
+            </ul>
+        </div>
+        <p>SearX is an intuitive and user-friendly search engine that is gaining popularity. Visit SearX <a href="#">here</a>.</p>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads at all.</li>
+                <li>No records and no tracking.</li>
+                <li>Choose from a variety of search engines.</li>
+                <li>US-based company.</li>
+                <li>Uses Amazon servers, ensuring reliable and secure service.</li>
+            </ul>
+        </div>
+        <p>Disconnect Search allows you to hide your IP address while browsing the internet and lets you do this with your preferred search engine. Try Disconnect <a href="#">here</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance.</li>
+                <li>Manually choose the search engine for results.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>Public SearX instances might be monitored and tracked.</li>
+            </ul>
+        </div>
+        <p>SearX is an intuitive and user-friendly search engine that is gaining popularity. Visit SearX <a href="#">here</a>.</p>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads at all.</li>
+                <li>No records and no tracking.</li>
+                <li>Choose from a variety of search engines.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>US-based company.</li>
+                <li>Uses Amazon servers.</li>
+            </ul>
+        </div>
+        <p>Disconnect Search allows you to hide your IP address while browsing the internet and lets you do this with your preferred search engine. Try Disconnect <a href="#">here</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- StartPage Engine -->
+    <div class="engine">
+        <h2>1. StartPage</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>Search results identical to Google.</li>
+                <li>Based in the Netherlands.</li>
+                <li>No logs and no tracking.</li>
+                <li>Non-targeted ads.</li>
+                <li>Proxy function.</li>
+                <li>Independently audited.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>Servers available in the US and other locations, providing user flexibility.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- DuckDuckGo Engine -->
+    <div class="engine">
+        <h2>2. DuckDuckGo</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No logs and no tracking.</li>
+                <li>Attractive interface.</li>
+                <li>Contextual filters.</li>
+                <li>"Bangs" for customized searches.</li>
+                <li>Non-intrusive and non-targeted ads.</li>
+                <li>Fast, almost identical to Google.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>Uses Yahoo technology, bringing diversity and accuracy to search results.</li>
+                <li>Amazon-owned servers ensure stable and fast infrastructure.</li>
+                <li>US-based company, potentially instilling trust in security standards.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance.</li>
+                <li>Manually choose the search engine for results.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>Public SearX instances might be monitored and tracked.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads at all.</li>
+                <li>No records and no tracking.</li>
+                <li>Choose from a variety of search engines.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Advantages Reformulated:</h3>
+            <ul>
+                <li>US-based company.</li>
+                <li>Uses Amazon servers.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparatie Motoare de Căutare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Comparatie Motoare de Căutare</h1>
+
+    <!-- StartPage Engine -->
+    <div class="engine">
+        <h2>1. StartPage</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Rezultate de căutare identice cu Google.</li>
+                <li>Bazat în Olanda.</li>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Reclame netargetate.</li>
+                <li>Funcție de proxy.</li>
+                <li>Auditat independent.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Avantaje Reformulate:</h3>
+            <ul>
+                <li>Servere disponibile în SUA și alte locații, oferind flexibilitate utilizatorilor.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- DuckDuckGo Engine -->
+    <div class="engine">
+        <h2>2. DuckDuckGo</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Interfața arată uimitor.</li>
+                <li>Filtre contextuale.</li>
+                <li>Funcție "Bangs" pentru căutări personalizate.</li>
+                <li>Reclame neintruzive și netintite.</li>
+                <li>Rapid, aproape identic cu Google.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Avantaje Reformulate:</h3>
+            <ul>
+                <li>Folosește tehnologia Yahoo, aducând diversitate și acuratețe în rezultatele căutării.</li>
+                <li>Serverele deținute de Amazon asigură o infrastructură stabilă și rapidă.</li>
+                <li>Companie cu sediul în SUA, ceea ce poate inspira încredere în respectarea standardelor de securitate.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Informațiile furnizate sunt la data de cunoaștere (ianuarie 2024).</p>
+        <p>Adaptat de [Numele tău]</p>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparatie Motoare de Căutare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Comparatie Motoare de Căutare</h1>
+
+    <!-- StartPage Engine -->
+    <div class="engine">
+        <h2>1. StartPage</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Rezultate de căutare identice cu Google.</li>
+                <li>Bazat în Olanda.</li>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Reclame netargetate.</li>
+                <li>Funcție de proxy.</li>
+                <li>Auditat independent.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Dezavantaje:</h3>
+            <ul>
+                <li>Serverele implicite sunt în SUA (deși puteți alege servere non-SUA).</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- DuckDuckGo Engine -->
+    <div class="engine">
+        <h2>2. DuckDuckGo</h2>
+        <div class="advantages">
+            <h3>Avantaje:</h3>
+            <ul>
+                <li>Fără jurnale și fără urmărire.</li>
+                <li>Interfața arată uimitor.</li>
+                <li>Filtre contextuale.</li>
+                <li>Funcție "Bangs" pentru căutări personalizate.</li>
+                <li>Reclame neintruzive și netintite.</li>
+                <li>Rapid, aproape identic cu Google.</li>
+            </ul>
+        </div>
+        <div class="disadvantages">
+            <h3>Dezavantaje:</h3>
+            <ul>
+                <li>Rezultatele se bazează în principal pe motorul de căutare Yahoo.</li>
+                <li>Toate serverele sunt deținute de Amazon.</li>
+                <li>Companie cu sediul în SUA.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Informațiile furnizate sunt la data de cunoaștere (ianuarie 2024).</p>
+        <p>Adaptat de [Numele tău]</p>
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiență cu Slimjet Browser</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #4285f4; /* culoare specifică Google */
+    }
+
+    ul {
+      list-style-type: circle;
+      margin-left: 20px;
+    }
+
+    .advantage {
+      color: #34a853; /* culoare specifică Google */
+    }
+
+    .code-example {
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Experiență cu Slimjet Browser</h1>
+
+  <h2>Avantaje în Slimjet:</h2>
+  <ul>
+    <li class="advantage">Viteza remarcabilă a navigării.</li>
+    <li class="advantage">Aspect similar cu Google, pentru o tranziție ușoară.</li>
+    <li class="advantage">Privire asemănătoare rezultatelor de căutare cu Google.</li>
+    <li class="advantage">Reclame afișate deasupra rezultatelor, dar fără a fi targetate.</li>
+    <li class="advantage">Posibilitatea activării sugestiilor de căutare.</li>
+    <li class="advantage">Căutări avansate cu parametri personalizați.</li>
+    <li class="advantage">Previzualizare video în rezultatele căutării.</li>
+  </ul>
+
+  <h2>Cod exemplu:</h2>
+  <div class="code-example">
+    <p>&lt;!-- Adăugați culori specifice Google pentru a evidenția avantajele --&gt;</p>
+    <p>&lt;style&gt;</p>
+    <p>body {</p>
+    <p>  font-family: 'Arial', sans-serif;</p>
+    <p>  margin: 20px;</p>
+    <p>}</p>
+    <p>h1 {</p>
+    <p>  color: #4285f4; /* culoare specifică Google */</p>
+    <p>}</p>
+    <p>ul {</p>
+    <p>  list-style-type: circle;</p>
+    <p>  margin-left: 20px;</p>
+    <p>}</p>
+    <p>.advantage {</p>
+    <p>  color: #34a853; /* culoare specifică Google */</p>
+    <p>}</p>
+    <p>.code-example {</p>
+    <p>  background-color: #f0f0f0;</p>
+    <p>  padding: 10px;</p>
+    <p>  margin-top: 10px;</p>
+    <p>  border-radius: 5px;</p>
+    <p>}</p>
+    <p>&lt;/style&gt;</p>
+    <p>&lt;/div&gt;</p>
+  </div>
+
+  <p>
+    Aceasta este o pagină simplă HTML care evidențiază avantajele Slimjet Browser, adăugând culori specifice Google pentru a crea o asociere cu familiaritatea utilizatorilor.
+  </p>
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuckDuckGo - Motor de căutare privat</title>
+</head>
+<body>
+
+<h1>DuckDuckGo - Motor de căutare privat</h1>
+
+<p>În ceea ce privește popularitatea, nimeni nu se apropie măcar de DDG (DuckDuckGo). Este cu siguranță cel mai cunoscut motor de căutare privat.</p>
+
+<p>CEO-ul său a declarat odată public că, chiar dacă FBI-ul ar veni la ei solicitând informații personale despre utilizatorii săi, nu ar putea respecta această cerere pentru că nu păstrează niciun fel de date.</p>
+
+<p>Cu toate acestea, folosește bazele de date ale Yahoo, care s-au dovedit a colabora cu NSA, ceea ce este îngrijorător. Deși DDG continuă să afirme că nu reține nicio informație despre utilizatori, nu poți să nu ai unele suspiciuni.</p>
+
+<!-- Include Image -->
+<img src="duckduckgo_logo.jpg" alt="Logo DuckDuckGo">
+
+<h2>Să vedem cum se prezintă rezultatele lor de căutare:</h2>
+<ul>
+    <li>Sugestiile de căutare sunt furnizate imediat.</li>
+    <li>Mai rapid decât StartPage, aproape identic cu Google.</li>
+    <li>La fel ca StartPage, există reclame afișate. Cu toate acestea, acestea sunt marcate ca atare, chiar mai mult decât cele de la StartPage.</li>
+    <li>Toate rezultatele pot fi filtrate în funcție de dată și țară.</li>
+    <li>Când căutați videoclipuri, le puteți accesa direct de pe site-ul DDG. Veți fi avertizat că aceasta va rezulta în trackere lăsate de Google, YouTube sau ambele.</li>
+</ul>
+
+<p>Așa cum am spus mai devreme, DDG se finanțează prin reclame. Cu toate acestea, acestea nu sunt țintite. De asemenea, nu există nicio problemă în a le distinge de rezultatele reale ale căutării.</p>
+
+<!-- Avantages and Disadvantages Section -->
+<h2>Avantaje DuckDuckGo:</h2>
+<ul>
+    <li>Fără jurnale și fără urmărire.</li>
+    <li>Interfața arată uimitor.</li>
+    <li>Filtre contextuale.</li>
+    <li>Bangs.</li>
+    <li>Reclame neintruzive și netintite.</li>
+    <li>Mai rapid decât StartPage.</li>
+</ul>
+
+<h2>Dezavantajele transformate în avantaje:</h2>
+<ul>
+    <li><strong>Dezavantaj:</strong> Rezultatele se bazează în principal pe motorul de căutare Yahoo. <br>
+        <strong>Avantaj:</strong> Utilizarea unui motor de căutare alternativ aduce diversitate în sursele de informații, evitând monopolul unui singur motor.</li>
+    <li><strong>Dezavantaj:</strong> Toate serverele sunt deținute de Amazon. <br>
+        <strong>Avantaj:</strong> Utilizarea infrastructurii Amazon poate asigura stabilitate, performanță și securitate sporite pentru serviciul de căutare.</li>
+    <li><strong>Dezavantaj:</strong> Companie cu sediul în SUA. <br>
+        <strong>Avantaj:</strong> Fiind în SUA, se supune reglementărilor stricte de confidențialitate și securitate, contribuind la o mai mare transparență.</li>
+</ul>
+
+<!-- Closing Body and HTML Tags -->
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparatie Motoare de Cautare - StartPage si DuckDuckGo</title>
+</head>
+<body>
+
+<h1>Comparatie Motoare de Cautare - StartPage si DuckDuckGo</h1>
+
+<!-- StartPage Section -->
+<section>
+    <h2>StartPage - Motor de căutare privat</h2>
+
+    <p>StartPage oferă rezultate bazate pe Google, dar fără urmărire. Interesant, StartPage includea rezultate de la Yahoo, dar le-a eliminat din cauza presupusei colaborări dintre Yahoo și NSA.</p>
+
+    <!-- Include Image -->
+    <img src="startpage_logo.jpg" alt="Logo StartPage">
+
+    <h3>Experiența StartPage:</h3>
+    <ul>
+        <li>Super rapid, aproape identic cu Google.</li>
+        <li>Fontul paginii de rezultate diferă puțin de Google, restul rămânând neschimbat.</li>
+        <li>Toate rezultatele de căutare provin direct de la Google, păstrând aceeași calitate.</li>
+        <li>Reclamele sunt afișate deasupra rezultatelor căutării, deși nu sunt targetate și sunt marcate ca reclame.</li>
+        <li>Implicit, nu obțineți sugestii de căutare, dar puteți activa această opțiune în setări.</li>
+        <li>Puteți efectua căutări diferite în funcție de anumiti parametri. Categoriile implicite sunt Web, Imagini și Videoclipuri. Cu toate acestea, există o opțiune de căutare avansată unde puteți detalia mai mult.</li>
+        <li>Când căutați videoclipuri, veți vedea o previzualizare sub formă de imagine.</li>
+    </ul>
+
+    <p>În ceea ce privește confidențialitatea, sunt câteva aspecte de analizat: În primul rând, compania din spatele StartPage este bazată în Olanda, renumită pentru abordarea fermă în susținerea confidențialității. Cu toate acestea, majoritatea serverelor sale sunt situate în SUA. Acest lucru poate fi îngrijorător pentru unii. Totuși, puteți utiliza servere non-SUA și non-UE, iar orice site web poate fi accesat prin proxy.</p>
+
+    <p>A primit un raport de securitate Qualys SSL cu calificativul A+. Funcția de proxy înseamnă că accesați un site web printr-un server terț verificat de StartPage. Proxy-ul este o caracteristică excelentă orientată spre confidențialitate pentru un motor de căutare. Ideea se bazează pe principiile de mascare a IP-ului. Păstrează IP-ul dvs. în siguranță și invizibil pentru site-urile pe care le vizitați. Dezavantajul este că va reduce viteza de navigare. Faceți clic <a href="#">aici</a> pentru a testa StartPage pe cont propriu.</p>
+
+    <!-- Avantages and Disadvantages Section -->
+    <h3>Avantaje StartPage:</h3>
+    <ul>
+        <li>Rezultate de căutare identice cu Google.</li>
+        <li>Bazat în Olanda.</li>
+        <li>Fără jurnale și fără urmărire de orice fel.</li>
+        <li>Reclame netargetate.</li>
+        <li>Proxy.</li>
+        <li>Auditat independent.</li>
+    </ul>
+
+    <h3>Dezavantajele transformate în avantaje:</h3>
+    <ul>
+        <li><strong>Dezavantaj:</strong> Serverele implicite se află în SUA. <br>
+            <strong>Avantaj:</strong> Alegerea de servere non-SUA și non-UE permite diversitate și acces la site-uri prin proxy, contribuind la confidențialitate.</li>
+    </ul>
+
+    <p>Cred că StartPage este un motor de căutare excepțional pentru cei care doresc comoditatea Google fără a fi urmăriți la fiecare pas.</p>
+</section>
+
+<!-- DuckDuckGo Section -->
+<section>
+    <h2>DuckDuckGo - Motor de căutare privat</h2>
+
+    <p>În ceea ce privește popularitatea, nimeni nu se apropie măcar de DDG (DuckDuckGo). Este cu siguranță cel mai cunoscut motor de căutare privat.</p>
+
+    <p>CEO-ul său a declarat odată public că, chiar dacă FBI-ul ar veni la ei solicitând informații personale despre utilizatorii săi, nu ar putea respecta această cerere pentru că nu păstrează niciun fel de date.</p>
+
+    <p>Cu toate acestea, folosește bazele de date ale Yahoo, care s-au dovedit a colabora cu NSA, ceea ce este îngrijorător. Deși DDG continuă să afirme că nu reține nicio informație despre utilizatori, nu poți să nu ai unele suspiciuni.</p>
+
+    <!-- Include Image -->
+    <img src="duckduckgo_logo.jpg" alt="Logo DuckDuckGo">
+
+    <h3>Să vedem cum se prezintă rezultatele lor de căutare:</h3>
+    <ul>
+        <li>Sugestiile de căutare sunt furnizate imediat.</li>
+        <li>Mai rapid decât StartPage, aproape identic cu Google.</li>
+        <li>La fel ca StartPage, există reclame afișate. Cu toate acestea, acestea sunt marcate ca atare, chiar mai mult decât cele de la StartPage.</li>
+        <li>Toate rezultatele pot fi filtrate în funcție de dată și țară.</li>
+        <li>Când căutați videoclipuri, le puteți accesa direct de pe site-ul DDG. Veți fi avertizat că
+
+User
+<h3>Să vedem cum se prezintă rezultatele lor de căutare:</h3>
+    <ul>
+        <li>Sugestiile de căutare sunt furnizate imediat.</li>
+        <li>Mai rapid decât StartPage, aproape identic cu Google.</li>
+        <li>La fel ca StartPage, există reclame afișate. Cu toate acestea, acestea sunt marcate ca atare, chiar mai mult decât cele de la StartPage.</li>
+        <li>Toate rezultatele pot fi filtrate în funcție de dată și țară.</li>
+        <li>Când căutați videoclipuri, le puteți accesa direct de pe site-ul DDG. Veți fi avertizat că
+ChatGPT
+
+aceasta va rezulta în trackere lăsate de Google, YouTube sau ambele.</li>
+</ul>
+
+php
+
+<p>Așa cum am spus mai devreme, DDG se finanțează prin reclame. Cu toate acestea, acestea nu sunt țintite. De asemenea, nu există nicio problemă în a le distinge de rezultatele reale ale căutării.</p>
+
+<!-- Avantages and Disadvantages Section -->
+<h3>Avantaje DuckDuckGo:</h3>
+<ul>
+    <li>Fără jurnale și fără urmărire.</li>
+    <li>Interfața arată uimitor.</li>
+    <li>Filtre contextuale.</li>
+    <li>Bangs.</li>
+    <li>Reclame neintruzive și netintite.</li>
+    <li>Mai rapid decât StartPage.</li>
+</ul>
+
+<h3>Dezavantajele transformate în avantaje:</h3>
+<ul>
+    <li><strong>Dezavantaj:</strong> Rezultatele se bazează în principal pe motorul de căutare Yahoo. <br>
+        <strong>Avantaj:</strong> Utilizarea unui motor de căutare alternativ aduce diversitate în sursele de informații, evitând monopolul unui singur motor.</li>
+    <li><strong>Dezavantaj:</strong> Toate serverele sunt deținute de Amazon. <br>
+        <strong>Avantaj:</strong> Utilizarea infrastructurii Amazon poate asigura stabilitate, performanță și securitate sporite pentru serviciul de căutare.</li>
+    <li><strong>Dezavantaj:</strong> Companie cu sediul în SUA. <br>
+        <strong>Avantaj:</strong> Fiind în SUA, se supune reglementărilor stricte de confidențialitate și securitate, contribuind la o mai mare transparență.</li>
+</ul>
+
+<!-- Closing Body and HTML Tags -->
+
+</body>
+</html>
+```
+
+
+
+
+
+<!-- Continuare HTML -->
+
+<!-- Informații despre StartPage -->
+
+<h3>Experiența StartPage:</h3>
+<ul>
+    <li>Super rapid, aproape identic cu Google.</li>
+    <li>Fontul paginii de rezultate diferă puțin de Google, restul rămânând neschimbat.</li>
+    <li>Toate rezultatele de căutare provin direct de la Google, păstrând aceeași calitate.</li>
+    <li>Reclamele sunt afișate deasupra rezultatelor căutării, deși nu sunt targetate și sunt marcate ca reclame.</li>
+    <li>Implicit, nu obțineți sugestii de căutare, dar puteți activa această opțiune în setări.</li>
+    <li>Puteți efectua căutări diferite în funcție de anumiti parametri. Categoriile implicite sunt Web, Imagini și Videoclipuri. Cu toate acestea, există o opțiune de căutare avansată unde puteți detalia mai mult.</li>
+    <li>Când căutați videoclipuri, veți vedea o previzualizare sub formă de imagine.</li>
+</ul>
+
+<p>În ceea ce privește confidențialitatea, sunt câteva aspecte de analizat: În primul rând, compania din spatele StartPage este bazată în Olanda, renumită pentru abordarea fermă în susținerea confidențialității. Cu toate acestea, majoritatea serverelor sale sunt situate în SUA. Acest lucru poate fi îngrijorător pentru unii. Totuși, puteți utiliza servere non-SUA și non-UE, iar orice site web poate fi accesat prin proxy.</p>
+
+<p>A primit un raport de securitate Qualys SSL cu calificativul A+. Funcția de proxy înseamnă că accesați un site web printr-un server terț verificat de StartPage. Proxy-ul este o caracteristică excelentă orientată spre confidențialitate pentru un motor de căutare. Ideea se bazează pe principiile de mascare a IP-ului. Păstrează IP-ul dvs. în siguranță și invizibil pentru site-urile pe care le vizitați. Dezavantajul este că va reduce viteza de navigare. Faceți clic aici pentru a testa StartPage pe cont propriu.</p>
+
+<!-- Avantaje și dezavantaje StartPage -->
+
+<h3>Avantaje StartPage:</h3>
+<ul>
+    <li>Rezultate de căutare identice cu Google.</li>
+    <li>Bazat în Olanda.</li>
+    <li>Fără jurnale și fără urmărire de orice fel.</li>
+    <li>Reclame netargetate.</li>
+    <li>Proxy.</li>
+    <li>Auditat independent.</li>
+</ul>
+
+<h3>Dezavantajele transformate în avantaje:</h3>
+<ul>
+    <li><strong>Dezavantaj:</strong> Serverele implicite se află în SUA. <br>
+        <strong>Avantaj:</strong> Alegerea de servere non-SUA și non-UE permite diversitate și acces la site-uri prin proxy, contribuind la confidențialitate.</li>
+</ul>
+
+<p>Cred că StartPage este un motor de căutare excepțional pentru cei care doresc comoditatea Google fără a fi urmăriți la fiecare pas.</p>
+
+<!-- Închideți etichetele HTML -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance for personalized control.</li>
+                <li>Manually choose the search engine for results, ensuring diverse and tailored searches.</li>
+                <li>Public SearX instances offer transparency and community-driven development.</li>
+            </ul>
+        </div>
+        <p>SearX is an intuitive and user-friendly search engine that is gaining popularity. Visit SearX <a href="#">here</a>.</p>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>Ad-free search experience.</li>
+                <li>No records and no tracking, prioritizing user privacy.</li>
+                <li>Choose from a variety of search engines for a customized search experience.</li>
+                <li>Being US-based ensures compliance with strict privacy laws.</li>
+                <li>Using Amazon servers ensures reliable and secure service.</li>
+            </ul>
+        </div>
+        <p>Disconnect Search allows you to hide your IP address while browsing the internet and lets you do this with your preferred search engine. Try Disconnect <a href="#">here</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private Search Engines</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .engine {
+            margin-bottom: 20px;
+        }
+
+        .advantages, .disadvantages {
+            margin-top: 10px;
+        }
+
+        .advantages h3, .disadvantages h3 {
+            color: #4CAF50;
+        }
+
+        .disadvantages h3 {
+            color: #F44336;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Private Search Engines</h1>
+
+    <!-- SearX Engine -->
+    <div class="engine">
+        <h2>3. SearX</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>No ads.</li>
+                <li>Proxy support for web pages.</li>
+                <li>Create your own SearX instance for personalized control.</li>
+                <li>Manually choose the search engine for results, ensuring diverse and tailored searches.</li>
+                <li>Public SearX instances offer transparency and community-driven development.</li>
+            </ul>
+        </div>
+        <p>SearX is an intuitive and user-friendly search engine that is gaining popularity. Visit SearX <a href="#">here</a>.</p>
+    </div>
+
+    <!-- Disconnect Search Engine -->
+    <div class="engine">
+        <h2>4. Disconnect Search</h2>
+        <div class="advantages">
+            <h3>Advantages:</h3>
+            <ul>
+                <li>Ad-free search experience.</li>
+                <li>No records and no tracking, prioritizing user privacy.</li>
+                <li>Choose from a variety of search engines for a customized search experience.</li>
+                <li>Being US-based ensures compliance with strict privacy laws.</li>
+                <li>Using Amazon servers ensures reliable and secure service.</li>
+            </ul>
+        </div>
+        <p>Disconnect Search allows you to hide your IP address while browsing the internet and lets you do this with your preferred search engine. Try Disconnect <a href="#">here</a>.</p>
+    </div>
+
+    <div class="footer">
+        <p>Information provided is as of the knowledge date (January 2024).</p>
+        <p>Adapted by [Your Name]</p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor de căutare privat</title>
+</head>
+<body>
+
+<!-- Disconnect Search Section -->
+<section>
+    <h1>Disconnect Search - Motor de căutare privat</h1>
+
+    <p>S-ar putea să fi auzit de Disconnect prin extensiile lor de browser. Acestea sunt foarte apreciate în ceea ce privește confidențialitatea și securitatea. Addon-ul Disconnect Search pentru Firefox și Chrome este unul dintre ele.</p>
+
+    <p>Există și un VPN Disconnect care are aceleași protocoale și funcții de bază ca motorul de căutare.</p>
+
+    <h2>Rezultatele căutării Disconnect într-o privire:</h2>
+    <ul>
+        <li>Căutările se efectuează în principal din addon-ul de browser care este plasat ordonat în colțul din dreapta sus al ecranului.</li>
+        <li>Alegeți motorul de căutare pe baza căruia doriți rezultate, fie Yahoo, Bing sau DDG (cel implicit).</li>
+        <li>Modul incognito este suportat pentru o confidențialitate suplimentară.</li>
+        <li>Rezultatele căutării nu sunt afișate pe un alt site web, ci pe site-ul motorului de căutare selectat. Singura diferență este că căutarea este criptată conform algoritmilor Disconnect.</li>
+    </ul>
+
+    <p>La fel ca SearX, faptul că nu are reclame sau orice formă de marketing afiliat înseamnă că este un produs non-profit, în ceea ce privește browser-ul de căutare. VPN-ul, însă, este premium.</p>
+
+    <p>În ceea ce privește confidențialitatea, toate serverele sunt situate în SUA și fac parte din Amazon. Acest lucru crește șansele ca agențiile guvernamentale să se amestece în activitățile dvs.</p>
+
+    <p>A primit nota A în raportul său de securitate Qualys SSL.</p>
+
+    <h2>Avantaje Disconnect Search:</h2>
+    <ul>
+        <li>Fără reclame deloc.</li>
+        <li>Fără înregistrări și fără urmărire.</li>
+        <li>Varietate de motoare de căutare din care puteți alege.</li>
+    </ul>
+
+    <h2>Dezavantajele transformate în avantaje:</h2>
+    <ul>
+        <li><strong>Dezavantaj:</strong> Are sediul în SUA. <br>
+            <strong>Avantaj:</strong> Există un nivel mai mare de transparență și reglementare în SUA, ceea ce poate contribui la mai multă încredere în serviciile lor.</li>
+        <li><strong>Dezavantaj:</strong> Folosește serverele Amazon. <br>
+            <strong>Avantaj:</strong> Amazon oferă infrastructură scalabilă și fiabilă, ceea ce poate asigura performanță și disponibilitate sporite.</li>
+    </ul>
+</section>
+
+<!-- SearX Section -->
+<section>
+    <h1>SearX - Motor de căutare privat</h1>
+
+    <p>Această motor de căutare privat este relativ necunoscută, dar își câștigă treptat popularitatea, în special în rândul entuziaștilor de tehnologie și al celor preocupați de confidențialitate.</p>
+
+    <p>Cel mai important aspect este că SearX este open-source, și oricine poate inspecta codul său. Este, de asemenea, foarte simplu de utilizat și configurat.</p>
+
+    <p>Acum, considerăm că acest lucru face din SearX cel mai sigur și orientat spre confidențialitate motor de căutare de pe internet. Puteți crea o instanță pe care doar voi o controlați pe un server privat. Asta înseamnă că nu se păstrează niciodată jurnale de activitate!</p>
+
+    <p>Modul în care abordează rezultatele căutării este și mai interesant:</p>
+    <ul>
+        <li>Fără sugestii de căutare.</li>
+        <li>Fără reclame.</li>
+        <li>O varietate de filtre pentru rezultatele căutării.</li>
+        <li>Fragmente Wikipedia alăturate unor rezultate de căutare.</li>
+        <li>La fel ca StartPage, SearX vă permite să folosiți proxy pentru orice rezultat de căutare, oferindu-vă și mai multă confidențialitate la îndemână.</li>
+        <li>Apăsând pe videoclipuri vă duce pe site-ul unde este găzduit videoclipul. Rezultatele sunt prezentate sub formă de miniaturi.</li>
+        <li>Descărcați orice rezultat de căutare în formatele .csv și .json sau ca fișier RSS.</li>
+        <li>Selectați manual de la care motor de căutare doriți rezultatele. Calitatea rezultatelor depinde în totalitate de motorul ales.</li>
+    </ul>
+
+    <p>Deoarece nu are publicitate, se poate spune că SearX este în întregime un proiect non-profit, și fiind open-source, oricine poate contribui, inclusiv financiar. Este exact ca Wikipedia în acest sens.</p>
+
+    <p>În ceea ce privește confidențialitatea, nu puteți afla dacă căutările dvs. sunt înregistrate de operatorii SearX, nici măcar pe instanța oficială a motorului de căutare. Totuși, același lucru este valabil și pentru StartPage și DDG. Nu există garanții că acestea sunt “private” în sensul strict al cuvântului.</p>
+<p>Crearea propriei instanțe private de căutare SearX este singura metodă prin care puteți garanta că căutările dvs. nu sunt înregistrate. Acest aspect face din SearX cel mai sigur motor de căutare privat.</p>
+<p>A primit nota A în raportul de securitate Qualys SSL.</p>
+<h2>Avantaje SearX:</h2>
+<ul>
+    <li>Nicio reclamă.</li>
+    <li>Puteți folosi proxy pentru pagini web.</li>
+    <li>Puteți crea propria instanță SearX.</li>
+    <li>Puteți alege manual de la care motor de căutare să obțineți rezultatele.</li>
+</ul>
+<h2>Dezavantaje transformate în avantaje:</h2>
+<ul>
+    <li><strong>Dezavantaj:</strong> Instanțele publice SearX ar putea fi monitorizate și urmărite. <br>
+        <strong>Avantaj:</strong> Există mai puține șanse să fiți supravegheați de agențiile guvernamentale atunci când utilizați SearX, chiar și instanța oficială, dar mai ales atunci când creați propria instanță.</li>
+</ul>
+<p>Este un motor de căutare intuitiv și ușor de utilizat care cu siguranță va crește rapid în clasamente. Vizitați SearX.</p>
+<!-- Closing Body and HTML Tags -->
+</body>
+</html>
+<p>Este un motor de căutare intuitiv și ușor de utilizat care cu siguranță va crește rapid în clasamente. Vizitați SearX.</p>
+
+<!-- Footer Section -->
+<footer>
+    <p>Copyright © 2024 SearX Search Engine. Toate drepturile rezervate.</p>
+</footer>
+
+<!-- Closing Body and HTML Tags -->
+</body>
+</html>
+
+
+
+
+<!-- Include Image -->
+<img src="duckduckgo_logo.jpg" alt="Logo DuckDuckGo">
+
+<h3>Să vedem cum se prezintă rezultatele lor de căutare:</h3>
+<ul>
+    <li>Sugestiile de căutare sunt furnizate imediat.</li>
+    <li>Mai rapid decât StartPage, aproape identic cu Google.</li>
+    <li>La fel ca StartPage, există reclame afișate, marcate ca atare.</li>
+    <li>Toate rezultatele pot fi filtrate în funcție de dată și țară.</li>
+    <li>Când căutați videoclipuri, le puteți accesa direct de pe site-ul DDG.</li>
+</ul>
+
+<p>Așa cum am spus mai devreme, DDG se finanțează prin reclame, dar acestea nu sunt țintite. Nu există nicio problemă în a le distinge de rezultatele reale ale căutării.</p>
+
+<!-- Avantaje și Dezavantaje DuckDuckGo -->
+<h3>Avantaje DuckDuckGo:</h3>
+<ul>
+    <li>Fără jurnale și fără urmărire.</li>
+    <li>Interfața arată uimitor.</li>
+    <li>Filtre contextuale.</li>
+    <li>Bangs.</li>
+    <li>Reclame neintruzive și netintite.</li>
+    <li>Mai rapid decât StartPage.</li>
+</ul>
+
+<h3>Dezavantaje DuckDuckGo:</h3>
+<ul>
+    <li>Rezultatele se bazează în principal pe motorul de căutare Yahoo.</li>
+    <li>Toate serverele sunt deținute de Amazon.</li>
+    <li>Companie cu sediul în SUA.</li>
+</ul>
+
+<p>Consider că DuckDuckGo oferă o alternativă interesantă pentru cei care caută confidențialitate în căutările lor online, cu avantaje evidente și câteva dezavantaje care pot fi luate în considerare în funcție de preferințele individuale.</p>
+
+<!-- Include Image -->
+<img src="duckduckgo_logo.jpg" alt="Logo DuckDuckGo">
+
+<h3>Să vedem cum se prezintă rezultatele lor de căutare:</h3>
+<ul>
+    <li>Sugestiile de căutare sunt furnizate imediat.</li>
+    <li>Mai rapid decât StartPage, aproape identic cu Google.</li>
+    <li>La fel ca StartPage, există reclame afișate, marcate ca atare.</li>
+    <li>Toate rezultatele pot fi filtrate în funcție de dată și țară.</li>
+    <li>Când căutați videoclipuri, le puteți accesa direct de pe site-ul DDG.</li>
+</ul>
+
+<p>Așa cum am spus mai devreme, DDG se finanțează prin reclame, dar acestea nu sunt țintite. Nu există nicio problemă în a le distinge de rezultatele reale ale căutării.</p>
+
+<!-- Avantaje DuckDuckGo (transformarea dezavantajelor în avantaje) -->
+<h3>Avantaje DuckDuckGo:</h3>
+<ul>
+    <li>Fără jurnale și fără urmărire.</li>
+    <li>Interfața arată uimitor.</li>
+    <li>Filtre contextuale.</li>
+    <li>Bangs.</li>
+    <li>Reclame neintruzive și netintite.</li>
+    <li>Mai rapid decât StartPage.</li>
+    <li><strong>Avantaj:</strong> Rezultatele se bazează pe motorul de căutare Yahoo. <br>
+        DDG folosește Yahoo pentru a diversifica sursele de informații, evitând dependența de un singur motor de căutare.</li>
+    <li><strong>Avantaj:</strong> Toate serverele sunt deținute de Amazon. <br>
+        Utilizarea infrastructurii Amazon poate asigura stabilitate, performanță și securitate sporite pentru serviciul de căutare.</li>
+    <li><strong>Avantaj:</strong> Companie cu sediul în SUA. <br>
+        Fiind în SUA, se supune reglementărilor stricte de confidențialitate și securitate, contribuind la o mai mare transparență.</li>
+</ul>
+
+<p>Consider că DuckDuckGo rămâne o alegere solidă pentru cei care caută confidențialitate în căutările lor online, iar dezavantajele pot fi privite ca aspecte care aduc beneficii în anumite situații.</p>
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor de căutare privat</title>
+</head>
+<body>
+
+<h1>DuckDuckGo - Motor de căutare privat</h1>
+
+<p>În ceea ce privește popularitatea, nimeni nu se apropie măcar de DDG (DuckDuckGo). Este cu siguranță cel mai cunoscut motor de căutare privat.</p>
+
+<!-- Include Image -->
+<img src="duckduckgo_logo.jpg" alt="Logo DuckDuckGo">
+
+<h3>Să vedem cum se prezintă rezultatele lor de căutare:</h3>
+<ul>
+    <li>Sugestiile de căutare sunt furnizate imediat.</li>
+    <li>Mai rapid decât StartPage, aproape identic cu Google.</li>
+    <li>La fel ca StartPage, există reclame afișate, marcate ca atare.</li>
+    <li>Toate rezultatele pot fi filtrate în funcție de dată și țară.</li>
+    <li>Când căutați videoclipuri, le puteți accesa direct de pe site-ul DDG.</li>
+</ul>
+
+<p>Așa cum am spus mai devreme, DDG se finanțează prin reclame, dar acestea nu sunt țintite. Nu există nicio problemă în a le distinge de rezultatele reale ale căutării.</p>
+
+<!-- Informații despre StartPage -->
+
+<h1>StartPage - Motor de căutare privat</h1>
+
+<p>StartPage oferă rezultate bazate pe Google, dar fără urmărire. Interesant, StartPage includea rezultate de la Yahoo, dar le-a eliminat din cauza presupusei colaborări dintre Yahoo și NSA.</p>
+
+<!-- Include Image -->
+<img src="startpage_logo.jpg" alt="Logo StartPage">
+
+<h3>Experiența StartPage:</h3>
+<ul>
+    <li>Super rapid, aproape identic cu Google.</li>
+    <li>Fontul paginii de rezultate diferă puțin de Google, restul rămânând neschimbat.</li>
+    <li>Toate rezultatele de căutare provin direct de la Google, păstrând aceeași calitate.</li>
+    <li>Reclamele sunt afișate deasupra rezultatelor căutării, deși nu sunt targetate și sunt marcate ca reclame.</li>
+    <li>Implicit, nu obțineți sugestii de căutare, dar puteți activa această opțiune în setări.</li>
+    <li>Puteți efectua căutări diferite în funcție de anumiti parametri. Categoriile implicite sunt Web, Imagini și Videoclipuri. Cu toate acestea, există o opțiune de căutare avansată unde puteți detalia mai mult.</li>
+    <li>Când căutați videoclipuri, veți vedea o previzualizare sub formă de imagine.</li>
+</ul>
+
+<!-- Avantaje și dezavantaje StartPage -->
+
+<h3>Avantaje StartPage:</h3>
+<ul>
+    <li>Rezultate de căutare identice cu Google.</li>
+    <li>Bazat în Olanda.</li>
+    <li>Fără jurnale și fără urmărire de orice fel.</li>
+    <li>Reclame netargetate.</li>
+    <li>Proxy.</li>
+    <li>Auditat independent.</li>
+</ul>
+
+<h3>Dezavantajele transformate în avantaje:</h3>
+<ul>
+    <li><strong>Dezavantaj:</strong> Serverele implicite se află în SUA. <br>
+        <strong>Avantaj:</strong> Alegerea de servere non-SUA și non-UE permite diversitate și acces la site-uri prin proxy, contribuind la confidențialitate.</li>
+</ul>
+
+<p>Cred că ambele motoare de căutare oferă opțiuni interesante pentru utilizatorii preocupați de confidențialitate. Alegerea dintre ele depinde de preferințele personale și de nivelul de confidențialitate dorit.</p>
+
+<!-- Închideți etichetele HTML -->
+
+</body>
+</html>
 
 
 
