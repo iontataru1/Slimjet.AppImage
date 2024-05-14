@@ -9729,6 +9729,7 @@ it accessible to users around the world.</li>
                 <li>Unwanted Traffic</li>
                 <li>Blocking and Execution with Administrator Privileges</li>
                 <li>Traffic Monitoring</li>
+		<li>Sniffing</li>
             </ul>
             <p>Learn about various security threats and take measures to protect yourself from potential online risks.</p>
         </section>
